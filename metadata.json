@@ -1,0 +1,6 @@
+{
+  "name": "Rainbow Rewri",
+  "description": "Discover Rainbow Rewri — traditional sweets, savory snacks, and delightful food made for sharing.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

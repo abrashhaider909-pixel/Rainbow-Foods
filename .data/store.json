@@ -1,0 +1,246 @@
+{
+  "users": [
+    {
+      "id": "admin-system-01",
+      "name": "Rainbow Store Admin",
+      "email": "adminrainbow@gmail.com",
+      "passwordHash": "$2b$10$eCdHlD40KETz6FQ12FrG3eMwQOrm/VAmeGHqVbwX/kpTovw8M4Ite",
+      "phone": "+92 300 8484910",
+      "role": "admin",
+      "mustChangePassword": true,
+      "savedAddresses": [],
+      "createdAt": "2026-10-20T16:49:36.105Z",
+      "updatedAt": "2026-10-20T16:49:36.105Z"
+    },
+    {
+      "id": "admin-system-02",
+      "name": "Rainbow Store Admin",
+      "email": "admin@rainbowgmail.com",
+      "passwordHash": "$2b$10$uIuYFvYWOIQ.ZxOmIzm61OTYle2h7fM0HIkqtKZjcL/VXw3XdDila",
+      "phone": "+92 300 8484910",
+      "role": "admin",
+      "mustChangePassword": true,
+      "savedAddresses": [],
+      "createdAt": "2026-10-20T16:52:03.613Z",
+      "updatedAt": "2026-10-20T16:52:03.613Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "fc881ae77f20a90beaa4b4a2f53cead4a79004b2b98ec8cab576479c9348bbb1",
+      "userId": "admin-system-01",
+      "role": "admin",
+      "email": "adminrainbow@gmail.com",
+      "name": "Rainbow Store Admin",
+      "phone": "+92 300 8484910",
+      "mustChangePassword": true,
+      "createdAt": "2026-10-20T16:50:21.468Z",
+      "expiresAt": "2026-11-19T16:50:21.467Z",
+      "_id": "1xs5rlhky58"
+    },
+    {
+      "token": "fb8eeafccd6c1e37af3b53bf5aee97d5b167bd5ffb3272247e121e0110cb5a94",
+      "userId": "admin-system-02",
+      "role": "admin",
+      "email": "admin@rainbowgmail.com",
+      "name": "Rainbow Store Admin",
+      "phone": "+92 300 8484910",
+      "mustChangePassword": true,
+      "createdAt": "2026-10-20T16:52:13.209Z",
+      "expiresAt": "2026-11-19T16:52:13.209Z",
+      "_id": "p2r9ngn8eog"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "classic-rewri",
+      "name": "Classic Rewri",
+      "description": "Traditional sesame and jaggery goodness, slow-roasted according to our century-old heritage recipe.",
+      "price": 250,
+      "salePrice": null,
+      "discountPercent": null,
+      "category": "Sweets",
+      "image": "https://images.unsplash.com/photo-1605197161470-5d2c3a6e7a94?auto=format&fit=crop&w=900&q=85",
+      "tag": "Bestseller",
+      "stock": 43,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    },
+    {
+      "id": 2,
+      "slug": "royal-assortment",
+      "name": "Royal Assortment",
+      "description": "A delightful selection of gourmet sweets, pistachios, cardamom rewri, and saffron bites for gifting and sharing.",
+      "price": 650,
+      "salePrice": 585,
+      "discountPercent": 10,
+      "category": "Sweets",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=85",
+      "tag": "Customer favourite",
+      "stock": 28,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    },
+    {
+      "id": 3,
+      "slug": "crunchy-namak-para",
+      "name": "Crunchy Namak Para",
+      "description": "Golden, crispy diamond-cut bites spiced with ajwain and Himalayan pink salt. The perfect evening tea companion.",
+      "price": 450,
+      "salePrice": null,
+      "discountPercent": null,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1621939514649-280e2aa2f7e3?auto=format&fit=crop&w=900&q=85",
+      "tag": "Crispy & Fresh",
+      "stock": 60,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    },
+    {
+      "id": 4,
+      "slug": "family-snack-box",
+      "name": "Family Snack Box",
+      "description": "A generous box packed with assorted savory crunchies, spiced lentils, and golden crisps made for good company.",
+      "price": 850,
+      "salePrice": 765,
+      "discountPercent": 10,
+      "category": "Snacks",
+      "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=900&q=85",
+      "tag": "Perfect for sharing",
+      "stock": 15,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    },
+    {
+      "id": 5,
+      "slug": "homestyle-special",
+      "name": "Homestyle Special",
+      "description": "Comforting flavours inspired by tradition. Pure ingredients crafted fresh daily with wholesome heritage recipes.",
+      "price": 280,
+      "salePrice": null,
+      "discountPercent": null,
+      "category": "Meals",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+      "tag": "Fresh Batch",
+      "stock": 20,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    },
+    {
+      "id": 6,
+      "slug": "festive-treat-box",
+      "name": "Festive Treat Box",
+      "description": "A luxurious and thoughtful festive treat packed in an artisan gift box for celebrations, weddings, and joy.",
+      "price": 550,
+      "salePrice": null,
+      "discountPercent": null,
+      "category": "Sweets",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=85",
+      "tag": "Gift Ready",
+      "stock": 12,
+      "isActive": true,
+      "createdAt": "2026-10-20T16:49:35.983Z",
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "RF-2026-K1342",
+      "customerId": null,
+      "customer": {
+        "name": "Hamza Ali",
+        "phone": "03001234567",
+        "email": "hamza@example.com"
+      },
+      "fulfillmentMethod": "pickup",
+      "pickupDetails": {
+        "storeAddress": "Shop 14, Heritage Sweet Market, Main Boulevard, Gulberg III, Lahore, Pakistan",
+        "pickupDate": "2026-10-22",
+        "pickupSlot": "02:00 PM - 04:00 PM",
+        "contactPhone": "+92 300 8484910"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "name": "Classic Rewri",
+          "unitPrice": 250,
+          "salePrice": null,
+          "quantity": 2,
+          "lineTotal": 500,
+          "image": "https://images.unsplash.com/photo-1605197161470-5d2c3a6e7a94?auto=format&fit=crop&w=900&q=85"
+        }
+      ],
+      "subtotal": 500,
+      "discount": 0,
+      "deliveryFee": 0,
+      "total": 500,
+      "paymentMethod": "cop",
+      "paymentStatus": "pending",
+      "status": "Pending",
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-20T16:52:41.259Z",
+          "note": "Order placed successfully (Store Pickup).",
+          "actor": "Customer"
+        }
+      ],
+      "createdAt": "2026-10-20T16:52:41.259Z",
+      "updatedAt": "2026-10-20T16:52:41.259Z",
+      "_id": "pid7rtol48q"
+    }
+  ],
+  "storeSettings": [
+    {
+      "key": "general",
+      "storeName": "Rainbow Rewri & Foods",
+      "storePhone": "+92 300 8484910",
+      "pickupAddress": "Shop 14, Heritage Sweet Market, Main Boulevard, Gulberg III, Lahore, Pakistan",
+      "pickupInstructions": "Please show your Order Confirmation number at our special pickup counter. Freshly packed items will be handed over to you immediately.",
+      "pickupDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "pickupTimeSlots": [
+        "11:00 AM - 01:00 PM",
+        "02:00 PM - 04:00 PM",
+        "04:00 PM - 06:00 PM",
+        "06:00 PM - 09:00 PM"
+      ],
+      "deliveryFee": 150,
+      "freeDeliveryThreshold": 2000,
+      "deliveryAreas": [
+        "Lahore (All Sectors)",
+        "Gulberg",
+        "DHA Phases 1-8",
+        "Model Town",
+        "Johar Town",
+        "Cantt",
+        "Faisal Town",
+        "Garden Town"
+      ],
+      "bankDetails": {
+        "bankName": "Meezan Bank Ltd",
+        "accountTitle": "Rainbow Rewri & Foods (Pvt) Ltd",
+        "accountNumber": "0284-0105829101",
+        "iban": "PK65MEZN0002840105829101",
+        "jazzCashNumber": "0300-8484910 (Rainbow Foods)",
+        "easyPaisaNumber": "0300-8484910 (Rainbow Foods)",
+        "instructions": "Please transfer the total order amount to the bank account or mobile wallet above. After transferring, enter your Transaction ID (TID) or sender details in the payment verification box below. Our team verifies payments promptly."
+      },
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-20T16:49:35.983Z"
+    }
+  ]
+}
